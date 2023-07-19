@@ -20,8 +20,8 @@ import org.junit.Test;
  */
 public class AppTest 
 {	
-	private String userName="testemailleandro@gmail.com";
-	private String password="ddcanvhahbmcdpgl"; 
+	private String userName="coloque o seu e-mail do gmail aqui";
+	private String password="coloque a senha gerada pelo procedimento de senhas de app"; 
 	
 	@org.junit.Test
    public void tesEmail() {

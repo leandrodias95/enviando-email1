@@ -41,7 +41,7 @@ public class AppTest
 		}
 
 		});
-		Address[]toUser = InternetAddress.parse("leandrobatista192@gmail.com");
+		Address[]toUser = InternetAddress.parse("coloque o e-mail do destinatário aqui");
 		Message message = new MimeMessage(session);
 		message.setFrom(new InternetAddress(userName));
 		message.setRecipients(Message.RecipientType.TO, toUser);
